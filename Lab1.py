@@ -118,5 +118,3 @@ plt.xlabel("Число членов")
 plt.ylabel("Абсолютна погрешность (лог. шкала)")
 plt.grid(True, which="both", linestyle="--")  # добавляет сетку для удобства
 plt.show()  # отображает график
-
-print(4 + 4)
