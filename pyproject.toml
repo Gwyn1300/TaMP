@@ -20,6 +20,8 @@ typeCheckingMode = "standar"
 [dependency-groups]
 dev = [
     "pyright>=1.1.414",
+    "ruff",
+    "pytest",
 ]
 
 [project]
