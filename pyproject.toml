@@ -15,7 +15,7 @@ indent-style = "space"
 
 [tool.pyright]
 pythonVersion = "3.14"
-typeCheckingMode = "standart"
+typeCheckingMode = "standar"
 
 [dependency-groups]
 dev = [
