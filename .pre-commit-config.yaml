@@ -24,7 +24,7 @@ repos:
     hooks:
       - id: pyright
         name: Pyright type checking
-        entry: python -m pyright
+        entry: uv run pyright
         language: system
         pass_filenames: false
         always_run: true
