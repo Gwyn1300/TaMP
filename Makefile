@@ -1,19 +1,16 @@
-.PHONY: run lint format format-check typecheck fullcheck
+.PHONY: install lint format format-check typecheck fullcheck
 
-run:
-	python Lab1.py
+install:
+	$(UV) sync --locked
 
 lint:
-	ruff check .
-
-format:
-	ruff format .
+	$(RUN) ruff check .
 
 format-check:
-	ruff format --check .
+	$(RUN) ruff format --check .
 
 typecheck:
-	pyright
+	$(RUN) pyright
 
 fullcheck: format-check lint typecheck
 
